@@ -73,7 +73,7 @@
  			  <ul style="list-style:none;">
  			  	<li style="float:right; margin-right:20px"><a href="#">로그인</a></li>
  			  	<li style="float:right; margin-right:20px"><a href="#">My</a></li>
- 			  	<li style="float:right; margin-right:20px"><a href="#">장바구니</a></li>
+ 			  	<li style="float:right; margin-right:20px"><a href="join/joinForm.jsp">회원가입</a></li>
  			  </ul>
             </div>
           </div>
@@ -251,13 +251,7 @@
         <div class="main_4">
       	  <h2>구매후기</h2>
       	</div>
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
+		<a href = "insert/insertForm.jsp">입력</a>
       </div>
 
       <hr class="featurette-divider">
