@@ -1,27 +1,22 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-	pageEncoding="EUC-KR"%>
-	
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="EUC-KR">
-<title>È¸¿ø°¡ÀÔ</title>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<title>íšŒì›ê°€ì…</title>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
 
 <style type="text/css">
-
 body{
 font-family: 'Noto Sans KR', sans-serif;
 }
  a:link { color: blue; text-decoration: none;}
  a:visited { color: blue; text-decoration: none;}
  a:hover { color: red; text-decoration: none;}
-
 input::placeholder {
         font-style: italic;
         opacity: 1;
       }
-
 div#side_left {
 	width: 35%;
 	height: 400px;
@@ -29,7 +24,6 @@ div#side_left {
 	float: left;
 	margin: 5px;
 }
-
 #side_left_box {
 	width: 95%;
 	height: 45%;
@@ -37,7 +31,6 @@ div#side_left {
 	float: left;
 	margin: 5px;
 }
-
 #mid_content {
 	width: 30%;
 	height: 400px;
@@ -45,13 +38,11 @@ div#side_left {
 	float: left;
 	margin: 5px;
 }
-
 #side_content_box {
 	display: inline;
 	background-color: white;
 	margin: 5px;
 }
-
 #side_rigth {
 	width: 35%;
 	height: 400px;
@@ -59,7 +50,6 @@ div#side_left {
 	float: right;
 	margin: 5px;
 }
-
 #side_rigth_box {
 	width: 95%;
 	height: 45%;
@@ -67,7 +57,6 @@ div#side_left {
 	margin: 5px;
 	margin-top: 95%;
 }
-
 #IDField {
 	width: 500px;
 	height: 40px;
@@ -86,8 +75,6 @@ border-radius : 5px;
 	margin: 5px;
 border-radius : 5px;
 }
-
-
 #EmailField {
 	width: 500px;
 	height: 40px;
@@ -100,15 +87,12 @@ border-radius : 5px;
 	margin: 5px;
 border-radius : 5px;
 }
-
 #DogAge{
 	width: 500px;
 	height: 40px;
 	margin: 5px;
 border-radius : 5px;
 }
-
-
 #JoinBtn {
 	width: 500px;
 	height: 40px;
@@ -117,8 +101,6 @@ border-radius : 5px;
 	border-radius : 5px;
 	color: white;
 }
-
-
 .findtab {
 	text-align: center;
 	width: 500px;
@@ -130,7 +112,7 @@ border-radius : 5px;
 </head>
 <body>	
 
-<h1 align="center">È¸¿ø°¡ÀÔ</h1>
+<h1 align="center">íšŒì›ê°€ì…</h1>
 
 
 	<div id="side_left">
@@ -142,60 +124,60 @@ border-radius : 5px;
 	<form action="join.jsp" method="post">
 	<div id="mid_content">
 	
-		<div>ÀÌ¸§<br/>
-			<input type="text" id="NameField" name="NameField" placeholder="ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä." />
+		<div>ì´ë¦„<br/>
+			<input type="text" id="NameField" name="NameField" placeholder="ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš”." />
 			<br />
 		</div>
-		<div>¾ÆÀÌµğ<br/>
-			<input type="text" id="IDField" name="IDField" placeholder="¾ÆÀÌµğ¸¦ ÀÔ·ÂÇÏ¼¼¿ä." />
+		<div>ì•„ì´ë””<br/>
+			<input type="text" id="IDField" name="IDField" placeholder="ì•„ì´ë””ë¥¼ ì…ë ¥í•˜ì„¸ìš”." />
 			</div>
-		<div>ÀÌ¸ŞÀÏ<br/>
-			<input type="text" id="EmailField" name="EmailField" placeholder="ÀÌ¸ŞÀÏÀ» ÀÔ·ÂÇÏ¼¼¿ä." />
+		<div>ì´ë©”ì¼<br/>
+			<input type="text" id="EmailField" name="EmailField" placeholder="ì´ë©”ì¼ì„ ì…ë ¥í•˜ì„¸ìš”." />
 			</div>
-			<div>ºñ¹Ğ¹øÈ£<br/>
-			<input type="text" id="PwField" name="PwField" placeholder="ºñ¹Ğ¹øÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä." />
+			<div>ë¹„ë°€ë²ˆí˜¸<br/>
+			<input type="text" id="PwField" name="PwField" placeholder="ë¹„ë°€ë²ˆí˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš”." />
 			<br />
 		</div>
-		<div>ºñ¹Ğ¹øÈ£ È®ÀÎ<br/>
-			<input type="text" id="PwreField" placeholder="ºñ¹Ğ¹øÈ£¸¦ ÇÑ¹ø ´õ ÀÔ·ÂÇÏ¼¼¿ä." />
+		<div>ë¹„ë°€ë²ˆí˜¸ í™•ì¸<br/>
+			<input type="text" id="PwreField" placeholder="ë¹„ë°€ë²ˆí˜¸ë¥¼ í•œë²ˆ ë” ì…ë ¥í•˜ì„¸ìš”." />
 			</div>
-			<div>¹İ·Á°ß Á¾ ¼±ÅÃ<br/>
+			<div>ë°˜ë ¤ê²¬ ì¢… ì„ íƒ<br/>
 <select name="dogvalue" id="DogValue" name="DogValue">
 		
-		<option value="">¼±ÅÃ</option>
-		<option value="">Æ÷¸Ş¶ó´Ï¾È </option>
-		<option value="">Ä¡¿Í¿Í</option>
-		<option value="">¹Ì´ÏÇÉ</option>
-		<option value="">ÆÄÇÇ¿ë</option>
-		<option value="">ÅäÀÌ Çªµé</option>
-		<option value="">¹Ì´Ï¾îÃÄ ´Ú½ºÈÆÆ®</option>
-		<option value="">Çªµé</option>
-		<option value="">¿äÅ©¼ÅÅ×¸®¾î</option>
-		<option value="">¸»Æ¼Áî</option>
-		<option value="">ºñ¼õ ÇÁ¸®Á¦</option>
-		<option value="">½´³ª¿ìÀú</option>
-		<option value="">ÆäÅ°´ÏÁî</option>
-		<option value="">ÆÛ±×</option>
-		<option value="">À£½ÃÄÚ±â</option>
-		<option value="">ÇÁ·»Ä¡ ºÒµ¶</option>
-		<option value="">ºñ±Û</option>
-		<option value="">ÄÚÄ« ½ºÆÄ´Ï¿¤</option>
-		<option value="">º¸½ºÅÏ Å×¸®¾î</option>
-		<option value="">¼ÅÆ²·£µå ½±µ¶</option>
-		<option value="">ÀÌÅ»¸®¾È ±×·¹ÀÌÇÏ¿îµå</option>
-		<option value="">½ºÄÚÆ¼½Ã Å×¸®¾î</option>
-		<option value="">º£µé¸µÅÏ Å×¸®¾î</option>
-		<option value="">½Ã¹ÙÀÌ´©</option>
-		<option value="">º¸´õÄİ¸®</option>
-		<option value="">ºÒÅ×¸®¾î</option>
-		<option value="">½ÃÃß</option>
+		<option value="">ì„ íƒ</option>
+		<option value="">í¬ë©”ë¼ë‹ˆì•ˆ </option>
+		<option value="">ì¹˜ì™€ì™€</option>
+		<option value="">ë¯¸ë‹ˆí•€</option>
+		<option value="">íŒŒí”¼ìš©</option>
+		<option value="">í† ì´ í‘¸ë“¤</option>
+		<option value="">ë¯¸ë‹ˆì–´ì³ ë‹¥ìŠ¤í›ˆíŠ¸</option>
+		<option value="">í‘¸ë“¤</option>
+		<option value="">ìš”í¬ì…”í…Œë¦¬ì–´</option>
+		<option value="">ë§í‹°ì¦ˆ</option>
+		<option value="">ë¹„ìˆ‘ í”„ë¦¬ì œ</option>
+		<option value="">ìŠˆë‚˜ìš°ì €</option>
+		<option value="">í˜í‚¤ë‹ˆì¦ˆ</option>
+		<option value="">í¼ê·¸</option>
+		<option value="">ì›°ì‹œì½”ê¸°</option>
+		<option value="">í”„ë Œì¹˜ ë¶ˆë…</option>
+		<option value="">ë¹„ê¸€</option>
+		<option value="">ì½”ì¹´ ìŠ¤íŒŒë‹ˆì—˜</option>
+		<option value="">ë³´ìŠ¤í„´ í…Œë¦¬ì–´</option>
+		<option value="">ì…”í‹€ëœë“œ ì‰½ë…</option>
+		<option value="">ì´íƒˆë¦¬ì•ˆ ê·¸ë ˆì´í•˜ìš´ë“œ</option>
+		<option value="">ìŠ¤ì½”í‹°ì‹œ í…Œë¦¬ì–´</option>
+		<option value="">ë² ë“¤ë§í„´ í…Œë¦¬ì–´</option>
+		<option value="">ì‹œë°”ì´ëˆ„</option>
+		<option value="">ë³´ë”ì½œë¦¬</option>
+		<option value="">ë¶ˆí…Œë¦¬ì–´</option>
+		<option value="">ì‹œì¶”</option>
 			
 </select>
 			</div>
-			<div>¹İ·Á°ß ³ªÀÌ ¼±ÅÃ<br/>
+			<div>ë°˜ë ¤ê²¬ ë‚˜ì´ ì„ íƒ<br/>
   <select name="age" id="DogAge" name="DogAge">
-    <option value="none">¼±ÅÃ</option>
-    <option value="age0">0~12°³¿ù</option>
+    <option value="none">ì„ íƒ</option>
+    <option value="age0">0~12ê°œì›”</option>
     <option value="age1" >1</option>
     <option value="age2">2</option>
     <option value="age3">3</option>
@@ -218,11 +200,11 @@ border-radius : 5px;
 <div>
 
 					<!-- <a href="join.jsp"> -->
-					<input type="submit" id="JoinBtn" value="È¸¿ø°¡ÀÔ"/><!-- </a> -->
+					<input type="submit" id="JoinBtn" value="íšŒì›ê°€ì…"/><!-- </a> -->
 					</form>
 				</div>
 <div class="">
-º»ÀÎÀº ¸¸ 14¼¼ ÀÌ»óÀÌ¸ç, °­¾ÆÁö´ëÅë·É ,<a href="">ÀÌ¿ë¾à°ü</a>,<a href="">°³ÀÎÁ¤º¸ ¼öÁı ¹× ÀÌ¿ë</a> ³»¿ëÀ» È®ÀÎ ÇÏ¿´À¸¸ç, µ¿ÀÇÇÕ´Ï´Ù.
+ë³¸ì¸ì€ ë§Œ 14ì„¸ ì´ìƒì´ë©°, ê°•ì•„ì§€ëŒ€í†µë ¹ ,<a href="">ì´ìš©ì•½ê´€</a>,<a href="">ê°œì¸ì •ë³´ ìˆ˜ì§‘ ë° ì´ìš©</a> ë‚´ìš©ì„ í™•ì¸ í•˜ì˜€ìœ¼ë©°, ë™ì˜í•©ë‹ˆë‹¤.
 	</div>
 	</div>
 	
